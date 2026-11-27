@@ -1,0 +1,7 @@
+export const headers={
+  'Content-Security-Policy': "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; object-src 'none'; frame-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+  'X-Content-Type-Options':'nosniff',
+  'Referrer-Policy':'no-referrer',
+  'Permissions-Policy':'camera=(), microphone=(), geolocation=(), payment=()',
+  'X-Frame-Options':'DENY'
+};
